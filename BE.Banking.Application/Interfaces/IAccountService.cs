@@ -1,4 +1,5 @@
-﻿using BE.Banking.Domain.Models;
+﻿using BE.Banking.Application.Models;
+using BE.Banking.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,7 @@ namespace BE.Banking.Application.Interfaces
     public interface IAccountService
     {
         IEnumerable<Account> GetAccounts();
+
+        void Transfer(AccountTransfer accountTransfer);
     }
 }
