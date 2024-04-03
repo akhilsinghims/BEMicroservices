@@ -1,4 +1,8 @@
-﻿using BE.Domain.Core.Bus;
+﻿using BE.Banking.Application.Interfaces;
+using BE.Banking.Data.Context;
+using BE.Banking.Data.Repository;
+using BE.Banking.Domain.Interfaces;
+using BE.Domain.Core.Bus;
 using BE.Infrastructure.Bus;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -15,6 +19,13 @@ namespace BE.Infra.IoC
         {
             //Domain Bus
             services.AddTransient<IEventBus, RabbitMqBus>();
+
+            //Application service
+            services.AddTransient<IAccountService, AccountService>();
+
+            //Data
+            services.AddTransient<IAccountRepository, AccountRepository>();
+            services.AddTransient<BankingDbContext>();
         }
     }
 }

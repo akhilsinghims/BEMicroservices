@@ -11,6 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BE.Banking.Application\BE.Banking.Application.csproj" />
+    <ProjectReference Include="..\BE.Banking.Data\BE.Banking.Data.csproj" />
+    <ProjectReference Include="..\BE.Banking.Domain\BE.Banking.Domain.csproj" />
     <ProjectReference Include="..\BE.Domain.Core\BE.Domain.Core.csproj" />
     <ProjectReference Include="..\BE.Infrastructure.Bus\BE.Infrastructure.Bus.csproj" />
   </ItemGroup>
