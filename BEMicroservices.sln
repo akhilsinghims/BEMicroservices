@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE.Domain.Core", "BE.Domain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE.Infrastructure.Bus", "BE.Infrastructure.Bus\BE.Infrastructure.Bus.csproj", "{D0A90278-A13C-464C-9E6A-5BB74893308F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE.Infra.IoC", "BE.Infra.IoC\BE.Infra.IoC.csproj", "{A33041A4-CF8D-4F3E-B800-7F9D96D69139}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{D0A90278-A13C-464C-9E6A-5BB74893308F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0A90278-A13C-464C-9E6A-5BB74893308F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0A90278-A13C-464C-9E6A-5BB74893308F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33041A4-CF8D-4F3E-B800-7F9D96D69139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33041A4-CF8D-4F3E-B800-7F9D96D69139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33041A4-CF8D-4F3E-B800-7F9D96D69139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33041A4-CF8D-4F3E-B800-7F9D96D69139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E17F9137-4AF0-4923-86DC-233CCC17F0B4} = {811C5B61-FFEF-4A33-8A0F-D4C62F601DDA}
 		{D0A90278-A13C-464C-9E6A-5BB74893308F} = {DF10C197-21A8-4E99-B8C0-167D70965F38}
+		{A33041A4-CF8D-4F3E-B800-7F9D96D69139} = {80B9CB97-3DB1-4000-8CD5-47D0DB9FF534}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {072BC19C-ED5F-4F91-875E-4F8A378FCD2D}
