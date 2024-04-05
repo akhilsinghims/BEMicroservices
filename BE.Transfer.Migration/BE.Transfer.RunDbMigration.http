@@ -1,0 +1,6 @@
+@BE.Transfer.RunDbMigration_HostAddress = http://localhost:5070
+
+GET {{BE.Transfer.RunDbMigration_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

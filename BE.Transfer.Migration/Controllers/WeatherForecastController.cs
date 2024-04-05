@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace BE.Transfer.Api.Controllers
+namespace BE.Transfer.RunDbMigration.Controllers
 {
     [ApiController]
     [Route("[controller]")]
